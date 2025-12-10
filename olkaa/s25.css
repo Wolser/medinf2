@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pervii {
+    height: 100vh;
+    background-image: url(vrach.jpg);
+    background-size: cover;
+}
+
+.text {
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 160px;
+    color:  #1a5bab;
+}
+
+.text a {
+    color: black;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+/* --------- */
+
+.vtoroi {
+    background-color: #e8f2fe;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+.vtoroi h3, .vtoroi h4 {
+    font-size: 200%;
+    color: #306a9c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.krov {
+    border-radius: 40px;
+}
+
+/* --------- */
+
+.tretii {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #0558b6;
+    height: 100vh;
+    color: white;
+    justify-content: center;
+}
+
+.borderwhite {
+    width: 300px;
+    background-color: white;
+    height: 20px;
+}
+
+.zelen {
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    background-color: #9cb706;
+    height: 100vh;
+    width: 50vw;
+    padding: 40px;
+    line-height: 1.3;
+}
+
+.zelen h3 {
+    font-size: 300%;
+}
+
+.zelen h4 {
+    font-size: 300%;
+}
+
+.pravo {
+    padding: 40px;
+    line-height: 1.3;
+    width: 70%;
+}
+
+.pravo h4 {
+    font-size: 300%;
+}
+
+/* --------- */
+
+#thalassemia.vtoroi {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+#thalassemia .wrap {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    max-width: 1200px;
+
+}
+
+#thalassemia header {
+    text-align: center;
+
+    width: 100%;
+}
+
+#thalassemia h3 {
+    font-size: 400%;
+    color: #306a9c;
+}
+
+/* ------ */
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #0558b6;
+    color: white;
+    text-align: center;
+}
