@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.first {
+    height: 100vh;
+    background-image: url(76.jpg);
+    background-size: cover;
+    line-height: 1.6;
+
+}
+
+.zagolovok {
+    color: #83c1c9;
+
+    height: 100vh;
+    width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 200%;
+    margin-left: 160px;
+}
+
+.zagolovok a {
+    font-size: 80%;
+    text-decoration: none;
+    color: black;
+}
+
+/* hypertension */
+
+.second {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+
+.second img {
+    margin-left: 100px;
+    width: 90%;
+    height: 100%;
+}
+
+.text {
+    padding: 50px;
+    line-height: 1.4;
+}
+
+.text h2, .text h3 {
+    color: #95dbd5;
+
+}
+
+.text h2 {
+    font-size: 300%;
+}
+
+/* coronary */
+
+.third {
+    height: 100vh;
+    background-image: url(nout.jpg);
+    background-size: cover;
+}
+
+#coronary .text {
+
+    width: 50vw;
+}
+
+#coronary ul, #coronary ol {
+    margin-left: 30px;
+}
+
+/* last */
+
+.last {
+    height: 100vh;
+    background-color: #9ed8da;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last img {
+    margin-top: 40px;
+    width: 40%;
+    clip-path: circle(30%);
+}
+
+.content {
+    font-size: 120%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+/* footer */
+
+footer {
+    background-color: #323232;
+    color: white;
+    height: 200px;
+    text-align: center;
+}
